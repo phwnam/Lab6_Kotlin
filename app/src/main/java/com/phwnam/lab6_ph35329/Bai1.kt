@@ -140,7 +140,7 @@ fun MovieItem(movie: Movie, listType: ListType) {
                 contentScale = ContentScale.FillWidth,
                 contentDescription = null,
                 modifier = Modifier
-                    .wrapContentHeight()
+                    .height(255.dp)
                     .fillMaxWidth()
             )
             Column(
